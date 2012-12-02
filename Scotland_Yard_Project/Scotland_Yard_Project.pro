@@ -13,8 +13,17 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    map.cpp \
+    settings.cpp \
+    userinterface.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    map.h \
+    settings.h \
+    userinterface.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    map.ui \
+    settings.ui \
+    userinterface.ui
