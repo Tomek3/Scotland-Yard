@@ -22,3 +22,6 @@ HEADERS  += mainwindow.h \
 FORMS    += mainwindow.ui \
     map.ui \
     settings.ui
+
+RESOURCES += \
+    Resources/Images/map_img.qrc
