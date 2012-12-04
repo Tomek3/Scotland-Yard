@@ -16,5 +16,4 @@ Settings::~Settings()
 void Settings::on_pushButton_clicked()
 {
     this->close();
-    mapa.show();
 }

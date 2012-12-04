@@ -15,7 +15,9 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    ustawienia.show();
+    mapa.show();
+    //mapa.setEnabled(false);
+    mapa.ustawienia.show();
 }
 
 void MainWindow::on_pushButton_2_clicked()

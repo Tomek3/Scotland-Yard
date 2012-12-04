@@ -2,7 +2,7 @@
 #define SETTINGS_H
 
 #include <QMainWindow>
-#include "map.h"
+
 
 namespace Ui {
 class Settings;
@@ -21,7 +21,7 @@ private slots:
 
 private:
     Ui::Settings *ui;
-    Map mapa;
+
 };
 
 #endif // SETTINGS_H

@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\map.o
+./release\settings.o
+./release\tablex.o
+./release\moc_mainwindow.o
+./release\moc_map.o
+./release\moc_settings.o
+./release\moc_tablex.o
+./release\qrc_src.o
+);

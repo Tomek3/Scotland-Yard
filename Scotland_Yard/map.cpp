@@ -20,5 +20,12 @@ void Map::on_pushButton_7_clicked()
 
 void Map::on_pushButton_6_clicked()
 {
-    //ustawienia.show();
+   // this->setEnabled(false);
+    ustawienia.show();
+
+}
+
+void Map::on_pushButton_8_clicked()
+{
+    ruchyX.show();
 }
