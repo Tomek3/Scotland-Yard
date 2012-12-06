@@ -3,7 +3,7 @@
 
 #Include "Player.H"
 
-class Detective:public Gracz
+class Detective:public Player
 {
 Public:
 Button * Show();

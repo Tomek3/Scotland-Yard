@@ -8,7 +8,8 @@ Gracz();
 Button * MoveBus();
 Button * MoveTaxi();
 Button * MoveUdg();
-Virtual Button * Show()
+Virtual Button * Show();
+Button * GetLocation();
 
 Private:
 int BusTicket;

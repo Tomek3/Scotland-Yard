@@ -4,7 +4,7 @@
 
 #Include "Player.H"
 
-class MrX:public Gracz
+class MrX:public Player
 {
 Public:
 Button * Show();
