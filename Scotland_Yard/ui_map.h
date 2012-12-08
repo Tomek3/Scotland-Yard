@@ -1,8 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'map.ui'
 **
-** Created: Tue 4. Dec 03:49:31 2012
-**      by: Qt User Interface Compiler version 4.8.4
+** Created: Tue 4. Dec 12:12:27 2012
+**      by: Qt User Interface Compiler version 4.8.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -21,7 +21,6 @@
 #include <QtGui/QMainWindow>
 #include <QtGui/QPushButton>
 #include <QtGui/QScrollArea>
-#include <QtGui/QStatusBar>
 #include <QtGui/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -64,13 +63,12 @@ public:
     QPushButton *pushButton_7;
     QScrollArea *scrollArea;
     QWidget *scrollAreaWidgetContents;
-    QStatusBar *statusbar;
 
     void setupUi(QMainWindow *Map)
     {
         if (Map->objectName().isEmpty())
             Map->setObjectName(QString::fromUtf8("Map"));
-        Map->resize(1280, 833);
+        Map->resize(1280, 750);
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -197,7 +195,7 @@ public:
         pushButton_7->setFont(font1);
         scrollArea = new QScrollArea(centralwidget);
         scrollArea->setObjectName(QString::fromUtf8("scrollArea"));
-        scrollArea->setGeometry(QRect(0, 0, 1018, 831));
+        scrollArea->setGeometry(QRect(0, 0, 1041, 701));
         scrollArea->setStyleSheet(QString::fromUtf8("background-image: url(:/img/map.jpg)"));
         scrollArea->setWidgetResizable(false);
         scrollAreaWidgetContents = new QWidget();
@@ -207,9 +205,6 @@ public:
         scrollAreaWidgetContents->setSizePolicy(sizePolicy);
         scrollArea->setWidget(scrollAreaWidgetContents);
         Map->setCentralWidget(centralwidget);
-        statusbar = new QStatusBar(Map);
-        statusbar->setObjectName(QString::fromUtf8("statusbar"));
-        Map->setStatusBar(statusbar);
 
         retranslateUi(Map);
 

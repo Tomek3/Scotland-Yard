@@ -4,7 +4,7 @@
 
 #Include "Player.H"
 
-class MrX:public Gracz
+class MrX : public Player
 {
 Public:
 Button * Show();
@@ -12,8 +12,8 @@ Button * MoveBlack();
 Button * MoveDouble();
 
 Private:
-Int BlackTicket;
-Int DoubleTicket;
+int BlackTicket;
+int DoubleTicket;
 }
 
 #endif
