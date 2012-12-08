@@ -1,8 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'tablex.ui'
 **
-** Created: Tue 4. Dec 03:11:00 2012
-**      by: Qt User Interface Compiler version 4.8.0
+** Created: Sat 8. Dec 18:47:52 2012
+**      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/

@@ -1,8 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'map.ui'
 **
-** Created: Tue 4. Dec 03:13:32 2012
-**      by: Qt User Interface Compiler version 4.8.0
+** Created: Sat 8. Dec 19:47:33 2012
+**      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -21,6 +21,7 @@
 #include <QtGui/QMainWindow>
 #include <QtGui/QMenuBar>
 #include <QtGui/QPushButton>
+#include <QtGui/QScrollArea>
 #include <QtGui/QStatusBar>
 #include <QtGui/QWidget>
 
@@ -64,6 +65,8 @@ public:
     QPushButton *pushButton_7;
     QPushButton *pushButton_8;
     QFrame *line_5;
+    QScrollArea *scrollArea;
+    QWidget *scrollAreaWidgetContents;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -206,9 +209,24 @@ public:
         pushButton_8->setGeometry(QRect(1130, 540, 101, 23));
         line_5 = new QFrame(centralwidget);
         line_5->setObjectName(QString::fromUtf8("line_5"));
-        line_5->setGeometry(QRect(1050, 10, 20, 671));
+        line_5->setGeometry(QRect(1050, 0, 20, 671));
         line_5->setFrameShape(QFrame::VLine);
         line_5->setFrameShadow(QFrame::Sunken);
+        scrollArea = new QScrollArea(centralwidget);
+        scrollArea->setObjectName(QString::fromUtf8("scrollArea"));
+        scrollArea->setGeometry(QRect(0, 0, 1038, 720));
+        scrollArea->setStyleSheet(QString::fromUtf8("background: url(:/images/grafika/map.jpg)"));
+        scrollArea->setWidgetResizable(false);
+        scrollAreaWidgetContents = new QWidget();
+        scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 1021, 807));
+        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(scrollAreaWidgetContents->sizePolicy().hasHeightForWidth());
+        scrollAreaWidgetContents->setSizePolicy(sizePolicy);
+        scrollAreaWidgetContents->setStyleSheet(QString::fromUtf8(""));
+        scrollArea->setWidget(scrollAreaWidgetContents);
         Map->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Map);
         menubar->setObjectName(QString::fromUtf8("menubar"));
