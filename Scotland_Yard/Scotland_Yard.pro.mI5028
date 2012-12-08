@@ -23,15 +23,8 @@ HEADERS  += mainwindow.h \
 
 FORMS    += mainwindow.ui \
     map.ui \
-<<<<<<< HEAD
-    settings.ui
-
-RESOURCES += \
-    Resources/Images/map_img.qrc
-=======
     settings.ui \
     tablex.ui
 
 RESOURCES += \
     src.qrc
->>>>>>> 6301f5d59de266c2acc2f644b2a7039f2061472b

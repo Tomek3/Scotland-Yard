@@ -56,7 +56,17 @@
      </rect>
     </property>
     <property name="text">
-     <string>Taxi</string>
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="src.qrc">
+      <normaloff>:/new/prefix1/grafika/taxi.jpg</normaloff>:/new/prefix1/grafika/taxi.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>57</width>
+      <height>25</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
@@ -69,7 +79,21 @@
      </rect>
     </property>
     <property name="text">
+<<<<<<< HEAD
      <string>Busss</string>
+=======
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="src.qrc">
+      <normaloff>:/new/prefix1/grafika/bus.jpg</normaloff>:/new/prefix1/grafika/bus.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>57</width>
+      <height>25</height>
+     </size>
+>>>>>>> 6301f5d59de266c2acc2f644b2a7039f2061472b
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
@@ -82,7 +106,17 @@
      </rect>
     </property>
     <property name="text">
-     <string>Underground</string>
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="src.qrc">
+      <normaloff>:/new/prefix1/grafika/underground.jpg</normaloff>:/new/prefix1/grafika/underground.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>57</width>
+      <height>25</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_4">
@@ -372,7 +406,7 @@
     <property name="geometry">
      <rect>
       <x>1080</x>
-      <y>540</y>
+      <y>570</y>
       <width>181</width>
       <height>20</height>
      </rect>
@@ -385,7 +419,7 @@
     <property name="geometry">
      <rect>
       <x>1080</x>
-      <y>550</y>
+      <y>580</y>
       <width>181</width>
       <height>20</height>
      </rect>
@@ -398,7 +432,7 @@
     <property name="geometry">
      <rect>
       <x>1130</x>
-      <y>580</y>
+      <y>610</y>
       <width>91</width>
       <height>23</height>
      </rect>
@@ -417,7 +451,7 @@
     <property name="geometry">
      <rect>
       <x>1130</x>
-      <y>610</y>
+      <y>640</y>
       <width>91</width>
       <height>23</height>
      </rect>
@@ -432,6 +466,7 @@
      <string>Menu główne</string>
     </property>
    </widget>
+<<<<<<< HEAD
    <widget class="QScrollArea" name="scrollArea">
     <property name="geometry">
      <rect>
@@ -463,9 +498,38 @@
       </sizepolicy>
      </property>
     </widget>
+=======
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>540</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tabela ruchów X</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>10</y>
+      <width>20</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+>>>>>>> 6301f5d59de266c2acc2f644b2a7039f2061472b
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="src.qrc"/>
+ </resources>
  <connections/>
 </ui>

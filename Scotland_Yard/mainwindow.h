@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "settings.h"
+#include "map.h"
 
 namespace Ui {
 class MainWindow;
@@ -23,7 +23,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    Settings ustawienia;
+    Map mapa;
 };
 
 #endif // MAINWINDOW_H
