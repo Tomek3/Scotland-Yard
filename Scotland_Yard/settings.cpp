@@ -2,7 +2,7 @@
 #include "ui_settings.h"
 
 Settings::Settings(QWidget *parent) :
-    QDialog(parent),
+    QMainWindow(parent),
     ui(new Ui::Settings)
 {
     ui->setupUi(this);
@@ -11,4 +11,10 @@ Settings::Settings(QWidget *parent) :
 Settings::~Settings()
 {
     delete ui;
+}
+
+void Settings::on_pushButton_clicked()
+{
+    this->close();
+    mapa.show();
 }

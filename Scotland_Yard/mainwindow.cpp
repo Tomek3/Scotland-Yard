@@ -12,3 +12,13 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_pushButton_clicked()
+{
+    ustawienia.show();
+}
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    this->close();
+}
