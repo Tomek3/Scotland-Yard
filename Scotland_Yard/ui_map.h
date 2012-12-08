@@ -1,11 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'map.ui'
 **
-<<<<<<< HEAD
-** Created: Tue 4. Dec 12:12:27 2012
-=======
 ** Created: Tue 4. Dec 03:13:32 2012
->>>>>>> 6301f5d59de266c2acc2f644b2a7039f2061472b
 **      by: Qt User Interface Compiler version 4.8.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -23,8 +19,9 @@
 #include <QtGui/QLCDNumber>
 #include <QtGui/QLabel>
 #include <QtGui/QMainWindow>
+#include <QtGui/QMenuBar>
 #include <QtGui/QPushButton>
-#include <QtGui/QScrollArea>
+#include <QtGui/QStatusBar>
 #include <QtGui/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -65,30 +62,18 @@ public:
     QFrame *line_4;
     QPushButton *pushButton_6;
     QPushButton *pushButton_7;
-<<<<<<< HEAD
-    QScrollArea *scrollArea;
-    QWidget *scrollAreaWidgetContents;
-=======
     QPushButton *pushButton_8;
     QFrame *line_5;
     QMenuBar *menubar;
     QStatusBar *statusbar;
->>>>>>> 6301f5d59de266c2acc2f644b2a7039f2061472b
 
     void setupUi(QMainWindow *Map)
     {
         if (Map->objectName().isEmpty())
             Map->setObjectName(QString::fromUtf8("Map"));
-        Map->resize(1280, 750);
-        QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
-        sizePolicy.setHorizontalStretch(0);
-        sizePolicy.setVerticalStretch(0);
-        sizePolicy.setHeightForWidth(Map->sizePolicy().hasHeightForWidth());
-        Map->setSizePolicy(sizePolicy);
+        Map->resize(1280, 720);
         centralwidget = new QWidget(Map);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        sizePolicy.setHeightForWidth(centralwidget->sizePolicy().hasHeightForWidth());
-        centralwidget->setSizePolicy(sizePolicy);
         label = new QLabel(centralwidget);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(1120, 20, 91, 16));
@@ -216,19 +201,6 @@ public:
         pushButton_7->setObjectName(QString::fromUtf8("pushButton_7"));
         pushButton_7->setGeometry(QRect(1130, 640, 91, 23));
         pushButton_7->setFont(font1);
-<<<<<<< HEAD
-        scrollArea = new QScrollArea(centralwidget);
-        scrollArea->setObjectName(QString::fromUtf8("scrollArea"));
-        scrollArea->setGeometry(QRect(0, 0, 1041, 701));
-        scrollArea->setStyleSheet(QString::fromUtf8("background-image: url(:/img/map.jpg)"));
-        scrollArea->setWidgetResizable(false);
-        scrollAreaWidgetContents = new QWidget();
-        scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 1018, 809));
-        sizePolicy.setHeightForWidth(scrollAreaWidgetContents->sizePolicy().hasHeightForWidth());
-        scrollAreaWidgetContents->setSizePolicy(sizePolicy);
-        scrollArea->setWidget(scrollAreaWidgetContents);
-=======
         pushButton_8 = new QPushButton(centralwidget);
         pushButton_8->setObjectName(QString::fromUtf8("pushButton_8"));
         pushButton_8->setGeometry(QRect(1130, 540, 101, 23));
@@ -237,8 +209,14 @@ public:
         line_5->setGeometry(QRect(1050, 10, 20, 671));
         line_5->setFrameShape(QFrame::VLine);
         line_5->setFrameShadow(QFrame::Sunken);
->>>>>>> 6301f5d59de266c2acc2f644b2a7039f2061472b
         Map->setCentralWidget(centralwidget);
+        menubar = new QMenuBar(Map);
+        menubar->setObjectName(QString::fromUtf8("menubar"));
+        menubar->setGeometry(QRect(0, 0, 1280, 21));
+        Map->setMenuBar(menubar);
+        statusbar = new QStatusBar(Map);
+        statusbar->setObjectName(QString::fromUtf8("statusbar"));
+        Map->setStatusBar(statusbar);
 
         retranslateUi(Map);
 
@@ -249,15 +227,9 @@ public:
     {
         Map->setWindowTitle(QApplication::translate("Map", "MainWindow", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("Map", "Nazwa gracza", 0, QApplication::UnicodeUTF8));
-<<<<<<< HEAD
-        pushButton->setText(QApplication::translate("Map", "Taxi", 0, QApplication::UnicodeUTF8));
-        pushButton_2->setText(QApplication::translate("Map", "Busss", 0, QApplication::UnicodeUTF8));
-        pushButton_3->setText(QApplication::translate("Map", "Underground", 0, QApplication::UnicodeUTF8));
-=======
         pushButton->setText(QString());
         pushButton_2->setText(QString());
         pushButton_3->setText(QString());
->>>>>>> 6301f5d59de266c2acc2f644b2a7039f2061472b
         pushButton_4->setText(QApplication::translate("Map", "Black ticket", 0, QApplication::UnicodeUTF8));
         pushButton_5->setText(QApplication::translate("Map", "Double ticket", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("Map", "Tickety Pana X", 0, QApplication::UnicodeUTF8));
